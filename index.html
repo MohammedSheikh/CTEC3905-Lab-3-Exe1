@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript: Event Listener</title>
+  <style>
+    /*
+      Some very basic styles just to show the elements.
+      Replace these with your own if you want to.
+    */
+    #get-name { background: #eee; padding: 0.5em; }
+
+    .test{
+      color:green;
+      font-size: 60px;
+      text-decoration: underline;
+    }
+  </style>
+
+</head>
+<body>
+  <h1 id = "title">User</h1>
+  <p>Hello, <span id="my-name">anonymous user</span>!</p>
+
+  <div id="anotherDiv">ffdff</div>
+
+  <form id="get-name" action="#" method="post">
+    <label for="user-name">Enter name:</label>
+    <input type="text" id="user-name" placeholder="Your name?">
+    <input type="submit">
+  </form>
+
+  <button id = "button1">OK</button>
+  <p>
+    <button id = "button2">Change</button>
+
+  <!--
+    try loading the script tag inside the head section, then check the
+    browser's JavaScript console (inspect element).
+
+    Can you work out what the problem is?
+
+  -->
+  <script src="js/greeting.js"></script>
+</body>
+</html>
